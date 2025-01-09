@@ -10,7 +10,7 @@ export default createStore({
         location: "location",
         city: "Seoul",
     },
-    toggle: false,
+    toggle: true,
   },
   mutations: {
     updateWeather(state, payload) {
